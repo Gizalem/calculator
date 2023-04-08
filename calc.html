@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" type="text/css" href="calc.css">
+</head>
+<body>
+
+      <div class="calculator"> 
+        <h4 style="color: rgb(173, 175, 177);">የኤሌክትሮኒክ ስሌት ማሽን</h4>
+        <input type="text" id="result" disabled>
+        <div>       
+            <button onclick="clearResult()">C</button>
+            <button onclick="backspace()">&larr;</button>
+            <button onclick="insert('.')">.</button>
+            <button onclick="insert('/')">&divide;</button>
+            
+            
+        </div>
+          
+        <div>
+            
+            <button onclick="insert('7')">7 ፯</button>
+            <button onclick="insert('8')">8 ፰</button>
+            <button onclick="insert('9')">9 ፱</button>
+            <button onclick="insert('*')">&times;</button>
+            
+        </div>
+        <div>
+            <button onclick="insert('4')">4 ፬</button>
+            <button onclick="insert('5')">5 ፭</button>
+            <button onclick="insert('6')">6 ፮</button>
+            <button onclick="insert('-')">-</button>
+           
+        </div> 
+        <div>      
+            <button onclick="insert('1')">1 ፩</button>
+            <button onclick="insert('2')">2 ፪</button>
+            <button onclick="insert('3')">3 ፫</button>
+            <button onclick="insert('+')">+</button>
+           
+        </div>
+        <div>
+            <button onclick="insert('00')">00</button>
+            <button onclick="insert('0')">0</button>
+            <button class="equal" onclick="calculate()">=</button>
+        </div>        
+    </div>
+
+    
+    <script type="text/javascript" src="calc.js"></script>
+      
+      
+</body>
+</html>
