@@ -1,57 +1,75 @@
 .calculator {
-    width: 350px;
-    margin: 50px auto;
-    text-align: center;
-    padding: 10px;
-    background-color: #1e1d33;
-    border-radius: 20px;
-    box-shadow: 8px 8px 6px rgb(7, 7, 7),-3px -3px 0px rgb(56, 55, 55);
-    
-  }
+  width: 350px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #1e1d33;
+  border-radius: 20px;
+  box-shadow: 8px 8px 6px rgb(7, 7, 7),-3px -6px 0px rgb(56, 55, 55);
   
-  input[type=text] {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color:#113511;
-    height: 80px;
-    font-size: medium;
-    border-radius: 15px;
-    justify-content: flex-end;
-    display: flex;
-    text-align: right;
-  }
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color:#113511;
+  height: 80px;
+  font-size: medium;
+  border-radius: 15px;
+  display:flex;
+  text-align: right;
   
-  #result{ 
-    display: flex;
-    justify-content: flex-end;
-    color: #fbf9f9;
-  }
   
-  button {
-    border: 0;
-    outline: 0;
-    width: 55px;
-    height: 55px;
-    margin: 4px;
-    font-size: 20px;
-    background-color: hsl(122, 44%, 47%);
-    color: #b1adad;
-    border-radius: 150px;
-    box-shadow: 3px 3px 0px rgb(7, 7, 7), -1px -1px 0px rgb(73, 72, 72);
-    background: transparent;
-    cursor: pointer;
-  }
-  .equal{
-    width:120px;
-  }
+}
+#result{ 
+  color: #fbf9f9;
+  display:flex;
   
-  button:hover {
-    background-color: #204620; 
-  }
-  
-  button:active {
-    background-color: hsl(122, 39%, 49%);
-  }
-  
+}
+
+button {
+  border: 1px solid rgb(35, 34, 34);
+  outline: 0;
+  width: 55px;
+  height: 55px;
+  margin: 4px;
+  font-size: 20px;
+  background-color: hsl(122, 44%, 47%);
+  color: #b1adad;
+  border-radius: 150px;
+  box-shadow: 3px 3px 0px rgb(7, 7, 7), -1px -1px 0px rgb(73, 72, 72);
+  background: transparent;
+  cursor: pointer;
+}
+.equal{
+  width:120px;
+}
+.agecalc{
+  text-align: left;
+}
+
+.agecalc button {
+  background-color: rgb(57, 58, 42);
+  width: 45px;
+  height: 20px;
+  border-radius: 5%;
+  margin-left: 55px;
+  color: #928f8f;
+  font-size: small;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 3px 3px 0px rgb(7, 7, 7), -3px -3px 0px rgb(26, 25, 25);
+}
+.age{
+  margin-top: 3px;
+  font-size:xx-small;
+}
+button:hover {
+  background-color: #204620; 
+}
+
+button:active {
+  background-color: hsl(122, 39%, 49%);
+}
